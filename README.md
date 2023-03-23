@@ -35,7 +35,13 @@ To deploy this project
   DB_PASSWORD=
 ```
 
-4. **Jalankan website**
+4. **Jalankan migration dan seeder**
+
+```bash
+php artisan migrate --seed
+```
+
+5. **Jalankan website**
 
 ```bash
 php artisan serve
