@@ -7,6 +7,12 @@ Dibangun menggunakan
 - Laravel 9
 - Bootsrap 5
 
+## Default Account for testing
+
+**Admin Default Account**
+
+- username : admin1
+- Password : admin12345
 
 ## Deployment
 
