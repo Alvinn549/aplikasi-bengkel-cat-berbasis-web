@@ -43,19 +43,28 @@ To deploy this project
   DB_PASSWORD=
 ```
 
-4. **Generate app key**
+4. **Buka `.env` lalu tambahkan baris berikut**
+
+```bash
+  TIMEZONE=Asia/Jakarta
+  INDONESIA=id
+  FAKER_LOCALE=id_ID
+  FILESYSTEM_DISK=public
+```
+
+5. **Generate app key**
 
 ```bash
   php artisan key:generate
 ```
 
-5. **Jalankan migration dan seeder**
+6. **Jalankan migration dan seeder**
 
 ```bash
   php artisan migrate --seed
 ```
 
-6. **Jalankan website**
+7. **Jalankan website**
 
 ```bash
   php artisan serve
