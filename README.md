@@ -27,6 +27,7 @@ To deploy this project
 
   composer install
 ```
+
 2. **Buat file `.env`**
 
 ```bash
@@ -34,6 +35,7 @@ To deploy this project
 ```
 
 3. **Buka `.env` lalu ubah baris berikut sesuai dengan databasemu yang ingin dipakai**
+
 ```bash
   DB_PORT=3306
   DB_DATABASE=laravel
@@ -44,9 +46,8 @@ To deploy this project
 4. **Generate app key**
 
 ```bash
-   php artisan key:generate
+  php artisan key:generate
 ```
-
 
 5. **Jalankan migration dan seeder**
 
